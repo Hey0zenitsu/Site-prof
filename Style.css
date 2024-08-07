@@ -25,6 +25,12 @@
     display: flex;
     align-items: center;
 }
+.page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 /* Navegação geral */
 .navegacao{
     background-color: #6B8C36;
@@ -53,4 +59,14 @@
 #car{
     width: 43px; 
     margin: 0px 25px 0px 0px;
+}
+/* Pagina pós nav */
+.page h1{
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+.page p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin: 10px;
 }
