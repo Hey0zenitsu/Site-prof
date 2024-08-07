@@ -1,0 +1,56 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@400;500&display=swap');
+/* Display */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.esquerda{
+    display: flex;    
+    align-items: center;
+    letter-spacing: 6px;
+}
+.direita{
+    display: flex;
+    align-items: center;
+}
+/* Navegação geral */
+.navegacao{
+    background-color: #6B8C36;
+    color: #1E3706;
+    font-family: 'Roboto';
+}
+.esquerda h1{
+    font-size: 30px;
+    font-family: 'Open Sans';
+}
+.direita a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 15px 0px 15px;
+    color: #1E371F;
+    font-family: 'Roboto';
+    transition: 0.5s;
+}
+.direita a:hover{
+    transition: 0.5s;
+    color: #0d180d;
+}
+.direita nav{
+    align-items: center;
+}
+#car{
+    width: 43px; 
+    margin: 0px 25px 0px 0px;
+}
