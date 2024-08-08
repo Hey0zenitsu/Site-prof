@@ -36,7 +36,11 @@
     margin: 25px 0px 0px 0px;
     align-items: center;
 }
-
+.controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 /* Navegação geral */
 .navegacao{
     background-color: #6B8C36;
@@ -84,7 +88,7 @@
 .page p{
     font-family: 'Roboto';
     font-size: 20px;
-    margin: 10px 70px 30px 0px;
+    margin: 10px 70px 15px 0px;
     font-weight: 200;
     text-align: justify;
 }
@@ -92,13 +96,10 @@
     text-decoration: none;
     color: white;
     font-family: 'roboto';
-    background-color: #1E371F;
-    padding: 10px 35px 10px 35px;
+    background-color: rgb(165, 165, 165);
+    padding: 5px 15px 5px 15px;
     border-radius: 30px;
     transition: padding 0.5s ease;
-}
-.page a:hover{
-    padding: 12px 37px 12px 37px;
 }
 .page a:active{
     background-color: #294b2a;
@@ -107,7 +108,21 @@
 .page img{
     width: 500px;
 }
-.page b{
+.right p{
     color: #1E3706;
+    margin-top: 15px;
 }
-
+.controls{
+    margin-top: 70px;
+}
+.controls p{
+    background-color: rgb(212, 212, 212);
+    padding: 2px 10px 2px 10px;
+    margin: 0px;
+}
+#Voltar{
+    border-radius: 5px 0px 0px 5px;
+}
+#ir{
+    border-radius: 0px 5px 5px 0px;
+}
