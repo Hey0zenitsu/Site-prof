@@ -1,0 +1,113 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Display */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.esquerda{
+    display: flex;    
+    align-items: center;
+    letter-spacing: 6px;
+}
+.direita{
+    display: flex;
+    align-items: center;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 0px 0px;
+    align-items: center;
+}
+
+/* Navegação geral */
+.navegacao{
+    background-color: #6B8C36;
+    color: #1E3706;
+    font-family: 'Roboto';
+}
+.esquerda h1{
+    font-size: 30px;
+    font-family: 'Open Sans';
+}
+.esquerda img{
+    width: 100px;
+}
+.direita a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 15px 0px 15px;
+    color: #1E371F;
+    font-family: 'Roboto';
+    transition: color 0.5s ease;
+}
+.direita a:hover{
+    color: #0d180d;
+}
+.direita nav{
+    align-items: center;
+}
+#car{
+    width: 43px; 
+    margin: 0px 25px 0px 0px;
+}
+#home{
+    color: #0d180d;
+}
+
+/* Pagina pós nav */
+.page h1{
+    font-family: 'Inter';
+    font-size: 45px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #1E371F;
+    margin: 20px 0px 40px 0px;
+}
+.page p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin: 10px 70px 30px 0px;
+    font-weight: 200;
+    text-align: justify;
+}
+.page a{
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto';
+    background-color: #1E371F;
+    padding: 10px 35px 10px 35px;
+    border-radius: 30px;
+    transition: padding 0.5s ease;
+}
+.page a:hover{
+    padding: 12px 37px 12px 37px;
+}
+.page a:active{
+    background-color: #294b2a;
+    transition: 0.1s;
+}
+.page img{
+    width: 500px;
+}
+.page b{
+    color: #1E3706;
+}
+
