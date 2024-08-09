@@ -7,6 +7,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: white;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -65,7 +68,7 @@
     width: 43px; 
     margin: 0px 25px 0px 0px;
 }
-#home{
+#bold{
     color: #0d180d;
 }
 /* Pagina pós nav */
@@ -77,6 +80,7 @@
     color: #1E371F;
     margin: 20px 0px 40px 0px;
 }
+
 .page p{
     font-family: 'Roboto';
     font-size: 20px;

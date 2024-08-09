@@ -8,6 +8,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: white;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -47,6 +50,10 @@
 .cardlogin{
     text-align: start;
 }
+.reg{
+    display: flex;
+    flex-direction: row;
+}
 /* Navegação geral */
 .navegacao{
     background-color: #6B8C36;
@@ -78,7 +85,7 @@
     width: 43px; 
     margin: 0px 25px 0px 0px;
 }
-#home{
+#bold{
     color: #0d180d;
 }
 .login{
@@ -141,4 +148,13 @@
 }
 .page button:active{
     background-color: rgb(15, 15, 15);
+}
+
+.reg p{
+    margin: 100px 30px 0px 30px;
+}
+.reg a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
 }
