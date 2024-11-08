@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuário</title>
+    <link rel="stylesheet" href="style.css"> <!-- Conecta o arquivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <!-- navegação -->
+        <div class="navegacao">
+            <div class="esquerda">
+                <img src="Imagens/LogoVetorizada.png" alt="LogoMarca">
+                <h1>BONSAI GARDEN</h1>
+            </div>
+            <div class="direita">
+                <nav>
+                    <ul>
+                        <a href="../../OpenToUse/Home/Home.html" id="home">HOME</a>
+                        <a href="../../OpenToUse/Sobre/Sobre1.1.html">SOBRE</a>
+                        <a href="../../Loja/loja/loja.php">PRODUTOS</a>
+                        <a href="../../AdmUse/Secao_adm/Login.html">FUNCIONARIOS</a>
+                    </ul>
+                </nav>
+                <img src="Imagens/Carrinho.png" alt="CarrinhoDeCompras" id="car" >
+            </div>
+        </div>
+        <!-- Fim da navegação -->
+        <div class="page">
+        <h1>Crie sua conta</h1>
+        <p>Não possui login? Registre-se agora.</p>
+        <form id="registerForm">
+            <div class="cardlogin">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="date">Data de nascimento:</label>
+            <input type="date" name="date" id="date" required>
+            <div class="btn"><button type="submit">Registrar-se</button></div>
+        </form>
+    </div>
+    <div id="message"></div> <!-- Para exibir mensagens de erro ou sucesso -->
+</div>
+</div>
+    <script src="scripts.js"></script> <!-- Conecta o arquivo JavaScript -->
+</body>
+</html>

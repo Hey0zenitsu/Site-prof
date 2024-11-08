@@ -1,0 +1,155 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@100&display=swap');
+/* Display */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.esquerda{
+    display: flex;    
+    align-items: center;
+    letter-spacing: 6px;
+}
+.direita{
+    display: flex;
+    align-items: center;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 0px 0px;
+    align-items: center;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardlogin{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+/* Navegação geral */
+.navegacao{
+    background-color: #6B8C36;
+    color: #1E3706;
+    font-family: 'Roboto';
+}
+.esquerda h1{
+    font-size: 30px;
+    font-family: 'Open Sans';
+}
+.esquerda img{
+    width: 100px;
+}
+.direita a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 15px 0px 15px;
+    color: #1E371F;
+    font-family: 'Roboto';
+    transition: color 0.5s ease;
+}
+.direita a:hover{
+    color: #0d180d;
+}
+.direita nav{
+    align-items: center;
+}
+#car{
+    width: 43px; 
+    margin: 0px 25px 0px 0px;
+}
+#home{
+    color: #0d180d;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Pagina pós nav */
+.page{
+    font-family: 'Montserrat';
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.page h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.page p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardlogin{
+    margin: 40px 0px 0px 0px;
+}
+.cardlogin input{
+    width: 244px; /* Largura do campo */
+    height: 47px; /* Altura do campo */
+    padding: 5px; /* Espaçamento interno, ajustável conforme necessário */
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid black; /* Borda preta com 2 pixels de espessura */
+    font-size: 15px;
+    text-align: start;
+    outline: none;
+}
+.cardlogin input[type="date"] {
+    border: 1px solid black; /* Borda preta com 2 pixels de espessura */
+    width: 244px; /* Largura do campo */
+    height: 47px; /* Altura do campo */
+    padding: 5px; /* Espaçamento interno, ajustável conforme necessário */
+    font-size: 16px;    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: start;
+}
+.cardlogin p{
+    margin: 5px 0px 5px 0px;
+    font-size: 12px;
+}
+.page button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 40px 12px 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 800;
+    width: 175px;
+}
+.page button:active{
+    background-color: rgb(15, 15, 15);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.cardlogin{
+    margin: 20px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- navegação -->
+        <div class="navegacao">
+            <div class="esquerda">
+                <img src="Imagens/LogoVetorizada.png" alt="LogoMarca">
+                <h1>BONSAI GARDEN</h1>
+            </div>
+            <div class="direita">
+                <nav>
+                    <ul>
+                        <a href="/OpenToUse/Home/Home.html">HOME</a>
+                        <a href="/OpenToUse/Sobre/Sobre1.1.html">SOBRE</a>
+                        <a href="../../Loja/loja/loja.php">PRODUTOS</a>
+                        <a href="../../AdmUse/Secao_adm/Login.html">FUNCIONARIOS</a>
+                    </ul>
+                </nav>
+                <img src="Imagens/Carrinho.png" alt="CarrinhoDeCompras" id="car" >
+            </div>
+        </div>
+        <!-- Fim da navegação -->
+    <div class="page">
+        <div class="login">
+            <h1>Mudar Senha</h1>
+            <p>Digite suas antigas credenciais</p>
+            <form action="alterar_senha.php" method="POST">
+                <div class="cardlogin">
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <input type="password" name="senha_atual" placeholder="Digite sua senha atual" required>
+                <input type="password" name="nova_senha" placeholder="Digite sua nova senha" required>
+            </div>
+                <button type="submit">Alterar</button>
+            </form>
+        
+            <div id="message"></div> <!-- Para exibir mensagens de erro ou sucesso -->
+            </div>
+            <div class="help">	
+            <div class="E"><p><a href="">Esqueceu sua senha?</a> Clique aqui<br> para recuperá-la.</p></div>
+            <div class="D"><p><a href="../Registro/index.html">Não possui conta?</a> Clique aqui<br> para registrar-se.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Fim do container -->
+    <script src="script.js"></script>
+
+</body>
+</html>

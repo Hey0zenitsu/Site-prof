@@ -1,0 +1,460 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,345;1,345&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Display */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f4f4f4; /* Cinza claro */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.esquerda{
+    display: flex;    
+    align-items: center;
+    letter-spacing: 6px;
+}
+.direita{
+    display: flex;
+    align-items: center;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+}
+
+/* Navegação geral */
+.navegacao{
+    background-color: #6B8C36;
+    color: #1E3706;
+    font-family: 'Roboto';
+}
+.esquerda h1{
+    font-size: 30px;
+    font-family: 'Open Sans';
+}
+.direita a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 15px 0px 15px;
+    color: #1E371F;
+    font-family: 'Roboto';
+    transition: color 0.5s ease;
+}
+.direita a:hover{
+    color: #0d180d;
+}
+.direita nav{
+    align-items: center;
+}
+#car{
+    width: 43px; 
+    margin: 0px 25px 0px 0px;
+}
+#home{
+    color: #0d180d;
+}
+.table {
+    display: flex;
+    flex-direction: row;
+}
+/* Pagina pós nav */
+.page h1{
+    font-family: 'Inter';
+    font-size: 70px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #1E371F;
+    margin: 20px 0px 30px 0px;
+}
+
+.page p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin: 10px 70px 30px 70px;
+    font-weight: 200;
+    text-align: justify;
+}
+.page a{
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto';
+    background-color: #1E371F;
+    padding: 10px 35px 10px 35px;
+    border-radius: 30px;
+    transition: padding 0.5s ease;
+}
+.page a:hover{
+    padding: 12px 37px 12px 37px;
+}
+.page a:active{
+    background-color: #294b2a;
+    transition: 0.1s;
+}
+/* Estilização geral da página */
+.page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cinza claro */
+}
+
+/* Estilização do título principal */
+.page h1 {
+    color: #2d6a4f; /* Verde escuro */
+    text-align: center;
+    margin: 50px 10px 100px 10px;
+
+}
+
+/* Estilização das seções */
+.table {
+    background-color: #fff;
+    font-family: 'roboto';
+    justify-content: center;
+}
+
+/* Estilização da seção 1 e 2 */
+.section1, .section2 {
+    margin: 20px;
+    width: 100%;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilização dos títulos das seções */
+
+
+/* Estilização da tabela */
+.table  {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2); /* Box shadow suave */
+}
+.table h2{
+    margin: 20px 0px 20px 0px;
+}
+.table table{
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.page{
+align-items: center;
+height: 100%;
+}
+.table  th, .table  td {
+    padding: 10px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.table  th {
+    background-color: #2d6a4f; /* Verde escuro */
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.table  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cinza claro */
+}
+
+.table  button {
+    background-color: #2d6a4f; /* Verde escuro */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table  button:hover {
+    background-color: #1e4c36; /* Verde mais escuro */
+}
+
+.table  input[type="number"], .section2 input[type="text"], .section2 input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.table  input[type="number"]:focus, .section2 input[type="text"]:focus, .section2 input[type="number"]:focus {
+    outline: none;
+    border-color: #2d6a4f; /* Verde escuro */
+    margin: 5px;
+}
+
+.table  input[type="number"], .section1 input[type="text"], .section1 input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.table  input[type="number"]:focus, .section1 input[type="text"]:focus, .section1 input[type="number"]:focus {
+    outline: none;
+    border-color: #2d6a4f; /* Verde escuro */
+    margin: 5px;
+}
+.imagem-produto {
+    border-radius: 10px; /* Ajuste o valor conforme desejado */
+}
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.Acoes{
+    display: flex;
+    flex-direction: column;
+}
+
+/* menu */
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #353535;
+    position: fixed;
+    left: -250px; /* Escondido inicialmente */
+    transition: left 0.3s;
+    font-family: 'inter';
+}
+
+.sidebar h2 {
+    color: white;
+    padding: 15px;
+    border-bottom: 2px solid #2d6a4f; /* Linha verde embaixo dos títulos */
+    font-weight: 200;
+
+}
+
+.sidebar a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+.active {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+    transition: transform 0.3s;
+}
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;600&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+/* Display */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adiciona box-sizing para melhor controle */
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6B8C36;
+    color: #1E3706;
+    padding: 10px;
+}
+
+.esquerda h1 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.direita a {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 15px;
+    color: #1E371F;
+    transition: color 0.5s ease;
+}
+
+.direita a:hover {
+    color: #0d180d;
+}
+
+/* Menu */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #353535;
+    position: fixed;
+    left: -250px;
+    transition: left 0.3s;
+    font-family: 'Inter', sans-serif;
+}
+
+.sidebar h2 {
+    color: white;
+    padding: 15px;
+    border-bottom: 2px solid #2d6a4f; /* Linha verde embaixo dos títulos */
+    font-weight: 200;
+
+}
+
+.sidebar a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navegacao {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .esquerda h1 {
+        font-size: 24px;
+    }
+    .direita a {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    
+    .sidebar {
+        width: 200px; /* Reduzido para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .esquerda h1 {
+        font-size: 20px;
+    }
+    .direita a {
+        font-size: 16px;
+    }
+
+    .sidebar {
+        width: 100%; /* Full width para dispositivos móveis */
+    }
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Ajuste no título e texto */
+.page h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #1E371F;
+    margin: 20px 0;
+}
+
+.page p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 10px 70px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+/* Outros estilos... (mantenha os que já tem) */
+
+/* Estilização do botão */
+.page a {
+    text-decoration: none;
+    color: white;
+    background-color: #1E371F;
+    padding: 10px 35px;
+    border-radius: 30px;
+    transition: padding 0.5s ease;
+}
+
+.page a:hover {
+    padding: 12px 37px;
+}
+
+/* Estilização geral da tabela e inputs */
+.table {
+    width: 80%;
+    margin: 20px 0;
+}
+
+/* Estilização da tabela */
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+/* Ajuste no botão */
+.table button {
+    background-color: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table button:hover {
+    background-color: #1e4c36;
+}
